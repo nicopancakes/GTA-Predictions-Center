@@ -687,7 +687,6 @@ class PCCGApp(tk.Tk):
         sub.pack(fill=tk.BOTH, expand=True, padx=4, pady=4)
         self.tab_slots = tk.Frame(sub)
         self.tab_horses = tk.Frame(sub)
-        sub.add(self.tab_slots, text=" Slot Machines ")
         sub.add(self.tab_horses, text=" Horse Racing ")
         self._build_slots()
         self._build_horses()
